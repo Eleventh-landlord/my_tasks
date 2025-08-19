@@ -1,0 +1,10 @@
+#6
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+utme = int(input("Enter UTME score: "))
+choice = input("What schoolm is your first choice: ").title()
+olevel = int(input("How many credit pass in O'level sitting do you have: "))
+post_utme = input("Did you take part in POST UTME: ").title()
+department = int(input("Whats your total score: "))
+eligibility = (age >= 16) and (utme >= 200) and (choice == "Unilag") and (olevel >= 5) and (post_utme == "Yes") and ( department >= 200)
+print(eligibility)

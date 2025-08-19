@@ -1,0 +1,4 @@
+#9
+#Ask the user to enter a sentence and print the number of vowels in it.
+name = str(input("Enter your name: "))
+print(name)
